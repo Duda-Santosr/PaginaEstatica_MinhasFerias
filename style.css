@@ -7,7 +7,7 @@ body {
     justify-content: center;
 }
 
-.container {
+.c {
     display: flex;
     width: 80%;
     max-width: 1000px;
@@ -17,18 +17,18 @@ body {
     overflow: hidden;
 }
 
-.sidebar {
+.lateral {
     background-color: #87cefa;
     width: 20%;
     text-align: center;
     padding: 20px;
 }
 
-.sidebar .logo {
+.lateral .logo {
     width: 80px;
 }
 
-.sidebar h2 {
+.lateral h2 {
     font-size: 1.5rem;
     color: #fff;
 }
