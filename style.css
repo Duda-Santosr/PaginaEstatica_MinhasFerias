@@ -6,7 +6,12 @@ body {
     display: flex;
     justify-content: center;
 }
-
+.banner{
+    height: 500px; /* Altura fixa do banner */
+	background-image: url('img/Clouds🥺.jpg'); /* Imagem de fundo */
+	background-position: center; /* Centraliza a imagem */
+	background-size: cover; /* Cobre todo o banner */
+}
 .container {
     display: flex;
     width: 80%;
@@ -26,8 +31,8 @@ body {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .lateral h2 {
@@ -41,6 +46,7 @@ button {
     border-radius: 5px;
     background-color: #DFEDF9;
 }
+
 
 .principal {
     width: 80%;
