@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #DFEDF9;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.c {
+.container {
     display: flex;
     width: 80%;
     max-width: 1000px;
@@ -22,10 +22,12 @@ body {
     width: 20%;
     text-align: center;
     padding: 20px;
+    color: #ffffff;
 }
 
-.lateral .logo {
-    width: 80px;
+.logo {
+    width: 100px;
+    height: 100px;
 }
 
 .lateral h2 {
@@ -33,7 +35,14 @@ body {
     color: #fff;
 }
 
-.content {
+button {
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    background-color: #DFEDF9;
+}
+
+.principal {
     width: 80%;
     padding: 20px;
 }
@@ -56,10 +65,11 @@ header h2 {
 .post {
     display: flex;
     align-items: center;
-    background: #e6f7ff;
+    background: #A8D9F7;
     margin-bottom: 15px;
     padding: 15px;
     border-radius: 10px;
+    color: #ffffff;
 }
 
 .post img {
