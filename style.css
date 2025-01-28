@@ -7,10 +7,12 @@ body {
     justify-content: center;
 }
 .banner{
-    height: 500px; /* Altura fixa do banner */
+    height: 300px; /* Altura fixa do banner */
 	background-image: url('img/Clouds🥺.jpg'); /* Imagem de fundo */
 	background-position: center; /* Centraliza a imagem */
 	background-size: cover; /* Cobre todo o banner */
+    margin-top: -20px;
+    
 }
 .container {
     display: flex;
@@ -58,14 +60,17 @@ header {
     margin-bottom: 20px;
 }
 
-header h1 {
+.banner h1 {
     font-size: 2rem;
-    color: #4682b4;
+    color: #ffffff;
+    margin-left: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header h2 {
+.banner h2 {
     font-size: 1.5rem;
-    color: #6495ed;
+    margin-left: 1000px;
+    color: #ffffff;
 }
 
 .post {
